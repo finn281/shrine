@@ -1,0 +1,88 @@
+body { 
+overflow: hidden;
+width: 700px;
+height: 700px;
+margin: auto;
+}
+
+
+#graffiti{
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    z-index: -100;
+    
+}
+
+
+
+#hover1{
+  position: absolute;
+
+    
+}
+
+#zoom1{
+    height: 190px;
+    top: 295px;
+    left: 400px;
+    position: absolute;  
+}
+
+#zoom2{
+    height: 60px;
+    top: 360px;
+    left: 80px;
+    position: absolute;
+}
+
+#zoom3{
+
+top: 370px; 
+left: 230px;
+height: 70px;    
+position: absolute;    
+}
+
+
+#detail1{
+    position: absolute;
+    top: 3000px;
+    width: 700px;
+    height: 700px;
+    background-image: url(_MG_9202.jpg);
+    background-size: cover;
+}
+
+
+#detail2{
+    position: absolute;
+    top: 2000px;
+    left: 200px;
+    width: 700px;
+    height: 700px;
+    background-image: url(_MG_9203.jpg);
+    background-size: cover;
+}
+
+#detail3{
+    position: absolute;
+    top: 4000px;
+    left: 200px;
+    width: 700px;
+    height: 700px;
+    background-image: url(_MG_9204.jpg);
+    background-size: cover;
+}
+
+
+p{
+    position: absolute;
+    top: 345px;
+    font-family: monospace;
+    left: 345px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 -1px 0 black;
+    
+}
